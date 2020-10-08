@@ -56,7 +56,7 @@ open class SwiftyOnboardPage: UIView {
         }
     }
     
-    func setUp() {
+  public  func setUp() {
         self.addSubview(imageView)
         
         let margin = self.layoutMarginsGuide
