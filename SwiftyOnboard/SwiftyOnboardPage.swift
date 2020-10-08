@@ -56,7 +56,7 @@ open class SwiftyOnboardPage: UIView {
         }
     }
     
-    func setUp() {
+  public  func setUp() {
         self.addSubview(imageView)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 30).isActive = true
